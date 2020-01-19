@@ -6,10 +6,13 @@ import Col from 'react-bootstrap/Col';
 function HomePage() {
     return <Layout>
 
-        <Container id="content">
+        <Container id="content_home">
             <h1>home page</h1>
             <Row>
-                <Col>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Aliquam erat volutpat. Maecenas libero. Morbi scelerisque luctus velit. Pellentesque ipsum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Nullam eget nisl. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Fusce aliquam vestibulum ipsum. Praesent dapibus. Nulla non arcu lacinia neque faucibus fringilla. Mauris tincidunt sem sed arcu. Curabitur vitae diam non enim vestibulum interdum. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Mauris tincidunt sem sed arcu. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Curabitur vitae diam non enim vestibulum interdum.</Col>
+                <Col id="story1">
+                    <h5>story #1</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nullam eget nisl. Nam sed tellus id magna elementum tincidunt. Ut tempus purus at lorem. Aliquam ante. In dapibus augue non sapien. Vivamus porttitor turpis ac leo. Fusce wisi. Fusce tellus. Vivamus porttitor turpis ac leo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean vel massa quis mauris vehicula lacinia. Mauris dictum facilisis augue. Fusce aliquam vestibulum ipsum. Suspendisse sagittis ultrices augue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero.</p>
+                </Col>
             </Row>
         </Container>
 

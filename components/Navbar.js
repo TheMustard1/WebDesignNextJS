@@ -1,6 +1,5 @@
 import Nav from 'react-bootstrap/Nav';
 
-
 function NavBar() {
     return <Nav variant="tabs">
         <Nav.Item>
