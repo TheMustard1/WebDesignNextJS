@@ -6,36 +6,157 @@ $darkGreyColor: #222831;
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    height: 100%;
+    font-size: 0.8rem;
 }
 
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $lightGreyColor;
+    background-color: $darkGreyColor;
     min-height: 3rem;
     .btn{
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         background-color: transparent;
         border: none;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         margin-left: 1rem;
+        color: $lightGreyColor;
     }
+    .btn:hover{
+        color: $turquoiseColor;
+        transition: 0.4s;
+    }
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.freelance{
+    text-align: center;
+    border-left: 10px solid $turquoiseColor;
+    h3{
+        margin-top: 20%;
+        font-size: 0.5rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+}
+
+.headingText{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.mainTitle{
+    font-size: 2rem;
+    position: relative;
+    color: $lightGreyColor;
+    border-left: 4px solid $turquoiseColor;
+    padding-left: 1rem;
+    left: 10%;
 }
 
 .headerImg{
     width: 100%;
-    overflow: hidden;
 }
 
-.headerImg::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 1;
+.row{
+    h6{
+    text-align: center 
+    };
+}
+
+#article{
+    margin: 0 2rem;
+    margin-top: 2rem;
+}
+
+.flexy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+}
+
+.socMedia{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    p{
+        margin-left: 0.5rem;
+    }
+}
+
+.footer{
+    background-color: $darkGreyColor;
+    color: $lightGreyColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+
+@media (min-width: 768px) {
+    body{
+        font-size: 1rem;
+    }
+    
+.socMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    p{
+        margin-left: 0.5rem;
+    }
+}
+
+    .nav{
+        min-height: 4rem;
+        font-size: 1rem;
+        .btn{
+            font-size: 1.2rem;
+        }
+    }
+
+    .mainTitle{
+        font-size: 5rem;
+        border-left: 8px solid $turquoiseColor;
+    }
+ 
+    #article{
+        margin: 0 4rem;
+        margin-top: 2rem;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+   
+    .freelance{
+        text-align: center;
+        border-left: 10px solid $turquoiseColor;
+        h3{
+            margin-top: 20%;
+            font-size: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .footer{
+        margin-top: 8rem;
+    }
 }
