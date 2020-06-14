@@ -1,8 +1,8 @@
 //to update node modules
-npm install
+-npm install
 
 //to run
-npm run dev
+-npm run dev
 
 //url
-localhost:3000
+-localhost:3000
