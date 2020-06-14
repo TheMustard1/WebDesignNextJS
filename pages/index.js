@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 import Container from 'react-bootstrap/Container';
-import header from '../public/images/header.jpg';
+import header from '../public/images/L9.jpg';
 
 function HomePage() {
     return <Layout>
@@ -8,7 +8,7 @@ function HomePage() {
         <Container id="content_home">
             <h1>home page</h1>
     
-            <img src={header} alt='header image' id='headerImg'/>
+            <img src={header} alt='header image' class='headerImg'/>
 
             <div class="container" id="cols">
                 <div class="row">

@@ -1,0 +1,41 @@
+$greyColor: #393e46;
+$turquoiseColor: #32e0c4;
+$lightGreyColor: #eeeeee;
+$darkGreyColor: #222831;
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $lightGreyColor;
+    min-height: 3rem;
+    .btn{
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: none;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+}
+
+.headerImg{
+    width: 100%;
+    overflow: hidden;
+}
+
+.headerImg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+}
