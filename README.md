@@ -1,6 +1,3 @@
-# mobileFriendlyLayout
-Mobile friendly blog template
-
 //to update node modules
 npm install
 
